@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['{app,config,db,lib}/**/*'] + %w{Rakefile README.md LICENSE.txt}
   spec.test_files    = Dir['{test,spec,features}/**/*']
 
-  spec.add_dependency             'rspec', ["~> 3.0"]
+  spec.add_dependency             'rspec', ["> 3.5.0.beta3", "< 4.0"]
   spec.add_dependency             'ruby-progressbar', ["~> 1.4"]
 
 end
